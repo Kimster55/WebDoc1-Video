@@ -1,4 +1,4 @@
-var blooper = document.getElementById("myVideo");
+//var blooper = document.getElementById("myVideo");
 
 window.onscroll = function() {
     var offsetTop = blooper.getBoundingClientRect().top;
