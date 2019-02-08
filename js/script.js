@@ -1,5 +1,7 @@
 //var blooper = document.getElementById("myVideo");
 
+//Herunder koden som vi fikser og udbygger på klassen
+
 window.onscroll = function() {
     var offsetTop = blooper.getBoundingClientRect().top;
     var offsetBottom = blooper.getBoundingClientRect().bottom; 
