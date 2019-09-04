@@ -1,1 +1,62 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Webdoc1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <main class="content">
+        <!-- This is the audio-scroll landing page -->
+        <section>
+            <div>
+                <img src="img/sound.svg" alt="Sound warning">
+                <img id="mouse" src="img/mouse.svg" alt="Mouse warning">
+            </div>
+            <div>
+                <h3>Audio and video is included</h3>
+                <h3>Scroll to begin</h3>
+            </div>
+        </section>
+        <!-- end audio-scroll -->
+        <!-- this is the blooper -->
+        <section class="blooper">
+            <video id="myVideo">     
+                <source src="video/blooper.mp4" type= "video/mp4">
+            </video>
+        </section>
+        <!-- end blooper -->
+        <!-- text -->
+        <section class="text">
+            <img id="orange-triangle" src="img/orangetriangle.svg" alt="Orange Triangle Shape - Broken Logo" data-direction="right">
+   
+               
+            <button id="WalkerKnap" onclick="playWalker()">Klik for at spille Walker</button>
+            <div id="song">
+   
+   
+            <img id="purple-triangle" src="img/purpletriangle.svg" alt="Purple Triangle Shape - Broken Logo" data-direction="left">
+
+
+
+            <audio id="myAudio">
+                <source src="audio/Bouncy.mp3" type="audio/mp3"> 
+            </audio>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+          
+            <audio id="audio-player" controls="controls" src="audio/Walker.mp3" type="audio/mpeg"></audio>
+
+            
+            <img id="blue-triangle" src="img/bluetriangle.svg" alt="Blue Triangle Shape - Broken Logo" data-direction="right">
+        </section>
+        <!-- end text -->
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
